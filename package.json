@@ -1,0 +1,21 @@
+{
+  "name": "janplaywrightproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {"fulltest":"npx playwright test tests/DashboardUsingExcel.spec.ts",
+  "allure-report":"allure serve allure-results",
+  "smoketest": "npx playwright test -g smoke",
+  "regressionTest": "npx playwright test -g regression"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.0.3",
+    "allure-playwright": "^3.4.5",
+    "xlsx": "^0.18.5"
+  }
+}
