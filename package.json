@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"fulltest":"npx playwright test tests/DashboardUsingExcel.spec.ts",
+  "scripts": {"fulltest":"npx playwright test tests/DashBoardTest.spec.ts",
   "allure-report":"allure serve allure-results",
   "smoketest": "npx playwright test -g smoke",
   "regressionTest": "npx playwright test -g regression"
